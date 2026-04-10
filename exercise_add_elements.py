@@ -3,11 +3,12 @@
 def add_elements(lista):
     """
     Agrega 'Pink' al principio y 'Yellow' al final de la lista.
-
-    Args:
-        lista: Una lista de elementos
-
-    Returns:
-        La lista modificada con los elementos agregados
     """
+    lista.append("Yellow")
+    lista.insert(-len(lista),"Pink")
+    return lista
     pass  # Reemplazar con tu implementación
+
+
+lista = []
+print(add_elements(lista))

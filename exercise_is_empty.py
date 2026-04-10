@@ -2,12 +2,11 @@
 
 def is_empty(lista):
     """
-    Determina si una lista está vacía.
-
-    Args:
-        lista: Una lista de elementos
-
-    Returns:
-        True si la lista está vacía, False en caso contrario
+    Determina si una lista está vacía. True si esta vacía, false sino.
     """
+    if len(lista)==0:
+     return True
+    else: return False
     pass  # Reemplazar con tu implementación
+
+
